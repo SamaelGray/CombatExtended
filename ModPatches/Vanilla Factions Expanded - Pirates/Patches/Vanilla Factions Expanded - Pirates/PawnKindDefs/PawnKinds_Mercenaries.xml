@@ -52,21 +52,6 @@
 		</value>
 	</Operation>
 
-	<!-- === combatPower Patches === -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="VFEP_Major"]/combatPower</xpath>
-		<value>
-			<combatPower>500</combatPower>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="VFEP_General"]/combatPower</xpath>
-		<value>
-			<combatPower>550</combatPower>
-		</value>
-	</Operation>
-
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/PawnKindDef[@Name="VFEP_MercenariesBase"]/skills</xpath>
 		<value>

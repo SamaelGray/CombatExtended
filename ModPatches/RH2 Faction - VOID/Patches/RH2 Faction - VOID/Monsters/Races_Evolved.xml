@@ -94,13 +94,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_EvolvedRumbler"]/combatPower</xpath>
-		<value>
-			<combatPower>225</combatPower>
-		</value>
-	</Operation>
-
 	<!-- ========== Evolved long arm ========== -->
 
 	<Operation Class="PatchOperationAddModExtension">
@@ -191,13 +184,6 @@
 		<xpath>Defs/ThingDef[defName="RH_DF_EvolvedLongArms"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>14</ArmorRating_Blunt>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_EvolvedLongArms"]/combatPower</xpath>
-		<value>
-			<combatPower>225</combatPower>
 		</value>
 	</Operation>
 
@@ -294,13 +280,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_IrridiatedLongArms"]/combatPower</xpath>
-		<value>
-			<combatPower>900</combatPower>
-		</value>
-	</Operation>
-
 	<!-- ========== Volatile Leaper ========== -->
 
 	<Operation Class="PatchOperationAddModExtension">
@@ -393,13 +372,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_VolatileLeaper"]/combatPower</xpath>
-		<value>
-			<combatPower>2100</combatPower>
-		</value>
-	</Operation>
-
 	<!-- ========== BLACK TITAN ========== -->
 
 	<Operation Class="PatchOperationAddModExtension">
@@ -487,13 +459,6 @@
 		<xpath>Defs/ThingDef[defName="RH_DF_BlackTitan"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>21</ArmorRating_Blunt>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_BlackTitan"]/combatPower</xpath>
-		<value>
-			<combatPower>1200</combatPower>
 		</value>
 	</Operation>
 
@@ -590,13 +555,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_BlackWraith"]/combatPower</xpath>
-		<value>
-			<combatPower>900</combatPower>
-		</value>
-	</Operation>
-
 	<!-- ========== BLACK LEAPER ========== -->
 
 	<Operation Class="PatchOperationAddModExtension">
@@ -687,13 +645,6 @@
 		<xpath>Defs/ThingDef[defName="RH_DF_BlackLeaper"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>21</ArmorRating_Blunt>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_BlackLeaper"]/combatPower</xpath>
-		<value>
-			<combatPower>1500</combatPower>
 		</value>
 	</Operation>
 
@@ -790,13 +741,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_DevilHound"]/combatPower</xpath>
-		<value>
-			<combatPower>2700</combatPower>
-		</value>
-	</Operation>
-
 	<!-- ========== Tendril ========== -->
 
 	<Operation Class="PatchOperationAddModExtension">
@@ -887,13 +831,6 @@
 		<xpath>Defs/ThingDef[defName="RH_DF_Tendril"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>7</ArmorRating_Blunt>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_Tendril"]/combatPower</xpath>
-		<value>
-			<combatPower>75</combatPower>
 		</value>
 	</Operation>
 
@@ -989,13 +926,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_Bone"]/combatPower</xpath>
-		<value>
-			<combatPower>80</combatPower>
-		</value>
-	</Operation>
-
 	<!-- ========== Roid Hulk ========== -->
 
 	<Operation Class="PatchOperationAddModExtension">
@@ -1086,13 +1016,6 @@
 		<xpath>Defs/ThingDef[defName="RH_DF2_RoidHulk"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>8</ArmorRating_Blunt>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF2_RoidHulk"]/combatPower</xpath>
-		<value>
-			<combatPower>200</combatPower>
 		</value>
 	</Operation>
 
@@ -1190,10 +1113,4 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_Reaper"]/combatPower</xpath>
-		<value>
-			<combatPower>100</combatPower>
-		</value>
-	</Operation>
 </Patch>

@@ -134,13 +134,6 @@
 					</value>
 				</li>
 
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName="AM_Apoptosis"]/combatPower</xpath>
-					<value>
-						<combatPower>1000</combatPower>
-					</value>
-				</li>
-
 				<li Class="CombatExtended.PatchOperationMakeGunCECompatible">
 					<defName>AM_Gun_SoulDrainTurret</defName>
 					<statBases>

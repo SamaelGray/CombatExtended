@@ -10,13 +10,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[@Name="MechCentipedeBase"]/combatPower</xpath>
-		<value>
-			<combatPower>580</combatPower>
-		</value>
-	</Operation>
-
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/PawnKindDef[
 			defName="Mech_Lancer" or

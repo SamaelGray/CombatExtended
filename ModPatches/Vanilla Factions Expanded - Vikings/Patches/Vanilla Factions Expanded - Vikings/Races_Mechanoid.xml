@@ -234,10 +234,4 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="VFEV_Mech_Odin"]/combatPower</xpath>
-		<value>
-			<combatPower>600</combatPower>
-		</value>
-	</Operation>
 </Patch>
