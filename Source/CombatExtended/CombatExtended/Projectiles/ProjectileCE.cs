@@ -652,7 +652,17 @@ namespace CombatExtended
             {
                 return false;
             }
-            if (CE_Utility.IntersectionPoint(LastPos, newExactPos, shieldPosition, radius, out Vector3[] sect))
+            if (CE_Utility.IntersectionPoint(
+                    LastPos,
+                    newExactPos,
+                    shieldPosition,
+                    radius,
+                    out Vector3[] sect,
+                    // Don't normalize away the 3D component of the projectile position when checking for collisions
+                    // between indirect fire projectiles and shields that protect against them
+                    // (e.g. mortar shells targeting a high-shield).
+                    spherical: interceptorComp.Props.interceptAirProjectiles && def.projectile.flyOverhead
+            ))
             {
                 ExactPosition = newExactPos = sect.OrderBy(x => (OriginIV3.ToVector3() - x).sqrMagnitude).First();
                 landed = true;
@@ -720,12 +730,23 @@ namespace CombatExtended
             List<Thing> list = base.Map.listerThings.ThingsInGroup(ThingRequestGroup.ProjectileInterceptor);
             for (int i = 0; i < list.Count; i++)
             {
-                if (CheckIntercept(list[i], list[i].TryGetComp<CompProjectileInterceptor>()))
+                if (!CheckIntercept(list[i], list[i].TryGetComp<CompProjectileInterceptor>()))
                 {
-                    landed = true;
-                    this.Impact(null);
+                    continue;
+                }
+
+                // Have high-shields absorb intercepted indirect fire projectiles without detonating them.
+                // Since CE simulates a 3D trajectory for such shells but explosions occur on ground level,
+                // detonating the shell would cause damage to objects under the high-shield.
+                if (def.projectile.flyOverhead)
+                {
+                    this.Destroy();
                     return true;
                 }
+
+                landed = true;
+                this.Impact(null);
+                return true;
             }
             if (BlockerRegistry.CheckForCollisionBetweenCallback(this, LastPos, ExactPosition))
             {
@@ -781,6 +802,11 @@ namespace CombatExtended
         }
 
         /// <summary>
+        /// Cache field holding things that a projectile might collide with.
+        /// </summary>
+        private static readonly List<Thing> potentialCollisionCandidates = new List<Thing>();
+
+        /// <summary>
         /// Checks whether a collision occurs along flight path within this cell.
         /// </summary>
         /// <param name="cell">Where to check for collisions in</param>
@@ -793,34 +819,48 @@ namespace CombatExtended
             }
             var roofChecked = false;
 
-            var mainThingList = new List<Thing>(Map.thingGrid.ThingsListAtFast(cell)).Where(t => t is Pawn || t.def.Fillage != FillCategory.None).ToList();
+            potentialCollisionCandidates.Clear();
+
+            foreach (var thing in Map.thingGrid.ThingsListAtFast(cell))
+            {
+                if (thing is Pawn || thing.def.Fillage != FillCategory.None)
+                {
+                    potentialCollisionCandidates.AddDistinct(thing);
+                }
+            }
 
             //Find pawns in adjacent cells and append them to main list
-            var adjList = new List<IntVec3>();
             var rot4 = Rot4.FromAngleFlat(shotRotation);
             if (rot4.rotInt > 1)
             {
                 //For some reason south and west returns incorrect adjacent cells collection
                 rot4 = rot4.Opposite;
             }
-            adjList.AddRange(GenAdj.CellsAdjacentCardinal(cell, rot4, new IntVec2(collisionCheckSize, 0)).ToList());
+
             if (Controller.settings.DebugDrawInterceptChecks)
             {
                 Map.debugDrawer.debugCells.Clear();
                 Map.debugDrawer.DebugDrawerUpdate();
             }
             //Iterate through adjacent cells and find all the pawns
-            foreach (var curCell in adjList)
+            foreach (var curCell in GenAdj.CellsAdjacentCardinal(cell, rot4, new IntVec2(collisionCheckSize, 0)))
             {
-                if (curCell != cell && curCell.InBounds(Map))
+                if (curCell == cell || !curCell.InBounds(Map))
                 {
-                    mainThingList.AddRange(Map.thingGrid.ThingsListAtFast(curCell)
-                                           .Where(x => x is Pawn));
+                    continue;
+                }
 
-                    if (Controller.settings.DebugDrawInterceptChecks)
+                foreach (var thing in Map.thingGrid.ThingsListAtFast(curCell))
+                {
+                    if (thing is Pawn)
                     {
-                        Map.debugDrawer.FlashCell(curCell, 0.7f);
+                        potentialCollisionCandidates.AddDistinct(thing);
                     }
+                }
+
+                if (Controller.settings.DebugDrawInterceptChecks)
+                {
+                    Map.debugDrawer.FlashCell(curCell, 0.7f);
                 }
             }
 
@@ -834,8 +874,15 @@ namespace CombatExtended
                 roofChecked = true;
             }
 
-            foreach (var thing in mainThingList.Distinct().Where(x => !(x is ProjectileCE)).OrderBy(x => (x.DrawPos - LastPos).sqrMagnitude))
+            potentialCollisionCandidates.SortBy(thing => (thing.DrawPos - LastPos).sqrMagnitude);
+
+            foreach (var thing in potentialCollisionCandidates)
             {
+                if (thing is ProjectileCE)
+                {
+                    continue;
+                }
+
                 if ((thing == launcher || thing == mount) && !canTargetSelf)
                 {
                     continue;

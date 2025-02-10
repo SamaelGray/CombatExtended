@@ -11,6 +11,11 @@
 		<!-- Mod Patches -->
 		<li IfModActive="Torann.ARimworldOfMagic">ModPatches/A Rimworld of Magic</li>
 		<li IfModActive="ADE.AdvancedTurrets.Mod">ModPatches/ADE Advanced Turrets</li>
+		<li IfModActive="Killathon.ArtificialBeings.SynCore.Civil">ModPatches/ABF Civil Synstructs</li>
+		<li IfModActive="Killathon.ArtificialBeings.SynCore.Martial">ModPatches/ABF Martial Synstructs</li>
+		<li IfModActive="Killathon.ArtificialBeings.SynCore.Biomimetics">ModPatches/ABF Synstruct Biomimetics</li>
+		<li IfModActive="Killathon.ArtificialBeings.SynCore">ModPatches/ABF Synstructs Core</li>
+		<li IfModActive="Killathon.ArtificialBeings.SynCore.Utility">ModPatches/ABF Utility Synstructs</li>		
 		<li IfModActive="ADE.AdvancedTurretsA.copy.Mod">ModPatches/ADE Advanced turrets PLUS</li>
 		<li IfModActive="ADE.pulseTurrets.Mod">ModPatches/ADE Pulse Turrets PLUS</li>
 		<li IfModActive="spoonshortage.ADogSaidAnimalProsthetics">ModPatches/ADogSaid</li>
@@ -21,22 +26,22 @@
 		<li IfModActive="EV.all.tech.melee">ModPatches/All-Tech Melee</li>
 		<li IfModActive="sarg.alphaanimals">ModPatches/Alpha Animals</li>
 		<li IfModActive="sarg.alphabiomes">ModPatches/Alpha Biomes</li>
+		<li IfModActive="sarg.alphabooks">ModPatches/Alpha Books</li>
 		<li IfModActive="sarg.alphagenes">ModPatches/Alpha Genes</li>
 		<li IfModActive="sarg.alphaimplants">ModPatches/Alpha Implants</li>
 		<li IfModActive="sarg.alphamechs">ModPatches/Alpha Mechs</li>
 		<li IfModActive="Sarg.AlphaMemes">ModPatches/Alpha Memes</li>
 		<li IfModActive="sarg.magicalmenagerie">ModPatches/Alpha Mythology</li>
 		<li IfModActive="sarg.alphaships">ModPatches/Alpha Ships</li>
-		<li IfModActive="sarg.alphavehiclesneolithic">ModPatches/Alpha Vehicle</li>
+		<li IfModActive="sarg.alphavehiclesneolithic">ModPatches/Alpha Vehicles/Neolithic</li>
+		<li IfModActive="sarg.alphavehiclesageofsail">ModPatches/Alpha Vehicles/Age of Sail</li>
 		<li IfModActive="hlx.UltratechAlteredCarbon">ModPatches/Altered Carbon Ultratech Unleashed</li>
 		<li IfModActive="aa.warcaskets.rw">ModPatches/Ancient Arsenal Warcaskets</li>
 		<li IfModActive="bbbbilly.ancientbladecyborg">ModPatches/Ancient Blade Cyborg</li>
 		<li IfModActive="zal.easternarmory">ModPatches/Ancient Eastern Armory</li>
 		<li IfModActive="biowreck.ancientfalloutarmory">ModPatches/Ancient Fallout Armory</li>
 		<li IfModActive="bbbbilly.ancienthuman">ModPatches/Ancient Human</li>
-		<li IfModActive="Mlie.AndroidTiersTXSeries">ModPatches/Android Tiers - TX Series</li>
 		<li IfModActive="Killathon.AndroidTiersReforged">ModPatches/Android Tiers Reforged</li>
-		<li IfModActive="Mlie.AndroidTiersSM7Overhaul">ModPatches/Android Tiers SM7 Overhaul</li>
 		<li IfModActive="ChJees.Androids, ChJees.Androids14">ModPatches/Androids</li>
 		<li IfModActive="peptide.androidsexpanded, rielle.androidsexpanded">ModPatches/Androids Expanded</li>
 		<li IfModActive="hh.xrushha.AnimaAnimalsCombined">ModPatches/Anima Animals - Community Temp</li>
@@ -127,6 +132,7 @@
 		<li IfModActive="ATK.DevilstrandAnimals">ModPatches/Devilstrand Animals</li>
 		<li IfModActive="GarbageDayIsHereToStay.DevilstrandColourBundle.GDIHTSDSCB">ModPatches/Devilstrand Colour Bundle</li>
 		<li IfModActive="spincrus.dinosauria">ModPatches/Dinosauria</li>
+		<li IfModActive="AmethystTheOtter.DiverseMechanoidWarProcedure">ModPatches/Diverse Mechanoid War Procedure</li>
 		<li IfModActive="BotchJob.divineorder">ModPatches/Divine Order</li>
 		<li IfModActive="Mlie.DoomFactions">ModPatches/Doom Factions</li>
 		<li IfModActive="onyxae.dragonsdescent">ModPatches/Dragons Descent</li>
@@ -221,8 +227,7 @@
 		<li IfModActive="pphhyy.Gulden">ModPatches/Gulden Mod</li>
 		<li IfModActive="Monti.HalfDragons">ModPatches/Half Dragons</li>
 		<li IfModActive="HLX.RimworldUNSCArmoury">ModPatches/Halo - UNSC Armoury</li>
-		<li IfModActive="TheInfinityIQ.Halo.UNSC_copy">ModPatches/Halo Ammo</li>
-		<li IfModActive="TheInfinityIQ.Halo.UNSC_copy">ModPatches/Halo UNSC Weapon Pack</li>
+		<li IfModActive="TheInfinityIQ.Halo.UNSC">ModPatches/Halo UNSC Weapon Pack</li>
 		<li IfModActive="PitchStone.HeavyMeleeWeapons, Mlie.HeavyMeleeWeapons">ModPatches/Heavy Melee Weapons</li>
 		<li IfModActive="Bando.Heyrathehorned">ModPatches/Heyra the Horned</li>
 		<li IfModActive="zal.highcaliber">ModPatches/High Caliber</li>
@@ -286,6 +291,7 @@
 		<li IfModActive="Killathon.MechHumanlikes.MilitaryTiers">ModPatches/MH Military Tiers</li>
 		<li IfModActive="EL.MOW">ModPatches/Machines of War</li>
 		<li IfModActive="DetVisor.Makeshiftweapons">ModPatches/Makeshift Melee Weapons</li>
+		<li IfModActive="goudaquiche.LtfMantisRace">ModPatches/Mantis Race</li>
 		<li IfModActive="Sig.MantodeanRace">ModPatches/Mantodean Insectoid Race</li>
 		<li IfModActive="SutSutMan.MarilyntheMinchoWorshipperWitch">ModPatches/Marilyn the Mincho Worshipper Witch</li>
 		<li IfModActive="RaZim.ZGFMartens">ModPatches/Martens - Nature's Most Adorable Assassins</li>
@@ -353,9 +359,6 @@
 		<li IfModActive="neronix17.fr.content.dni">ModPatches/O21 Dragons Not Included</li>
 		<li IfModActive="neronix17.fr.compilation">ModPatches/O21 Forgotten Realms</li>
 		<li IfModActive="neronix17.mechadroids">ModPatches/O21 Mechadroids</li>
-		<li IfModActive="Neronix17.Outland.Core">ModPatches/O21 Outland - Core</li>
-		<li IfModActive="Neronix17.Outland.EastbornEmpire">ModPatches/O21 Outland - Eastborn</li>
-		<li IfModActive="Neronix17.Outland.MotzCoalition">ModPatches/O21 Outland - Motz Coalition</li>
 		<li IfModActive="Odz.WWII.Stalingrad.Uniforms">ModPatches/ODZ Stalingrad - Uniforms</li>
 		<li IfModActive="1.3.Odz.Suits">ModPatches/ODZ Suits</li>
 		<li IfModActive="ObsidiaExpansion.Xenos.Mothoids">ModPatches/Obsidia Expansion</li>
@@ -375,14 +378,17 @@
 		<li IfModActive="Mlie.OuterRimTatooine">ModPatches/Outer Rim - Tatooine</li>
 		<li IfModActive="Mlie.OuterRimTatooineSandcrawler">ModPatches/Outer Rim - Tatooine Sandcrawler</li>
 		<li IfModActive="Neronix17.Outland.Core">ModPatches/Outland - Core</li>
+		<li IfModActive="Neronix17.Outland.EastbornEmpire">ModPatches/Outland - Eastborn</li>
+		<li IfModActive="Neronix17.Outland.Genetics">ModPatches/Outland - Genetics</li>
+		<li IfModActive="Neronix17.Outland.MotzCoalition">ModPatches/Outland - Motz Coalition</li>		
 		<li IfModActive="Neronix17.Outland.RedburnPact">ModPatches/Outland - Redburn Pact</li>
 		<li IfModActive="riprusse.rfPalmCats">ModPatches/Palm Cats</li>
 		<li IfModActive="AhnDemi.PanieltheAutomata">ModPatches/Paniel the Automata</li>
 		<li IfModActive="shauaputa.pawnboldrace">ModPatches/Pawnbold Race</li>
 		<li IfModActive="Mlie.CutePenguin">ModPatches/Penguin</li>
 		<li IfModActive="Sov.WarcasketWeapons">ModPatches/Persona Warcasket Weapons</li>
-		<li IfModActive="Vanya.Polarisbloc.CoreLab">ModPatches/Polarisbloc Core Lab</li>
-		<li IfModActive="Vanya.Polarisbloc.SecurityForce">ModPatches/Polarisbloc Security Force</li>
+		<li IfModActive="Vanya.Polarisbloc.CoreLab,Vanya.Polarisbloc.CoreLab.tmp">ModPatches/Polarisbloc Core Lab</li>
+		<li IfModActive="Vanya.Polarisbloc.SecurityForce,Vanya.Polarisbloc.SecurityForce.tmp">ModPatches/Polarisbloc Security Force</li>
 		<li IfModActive="milk.poleepkwaupdate, GHOST.Poleepkwa">ModPatches/Poleepkwa Race</li>
 		<li IfModActive="BotchJob.PossessedWeapons">ModPatches/Possessed Weapons</li>
 		<li IfModActive="JangoDsoul.T45b.PowerArmor">ModPatches/PowerArmour T-45b</li>
@@ -412,6 +418,7 @@
 		<li IfModActive="CP.RimmuNation.2.Clothing">ModPatches/RH2 Rimmu-Nation² - Clothing</li>
 		<li IfModActive="CP.RimmuNation.2.Security">ModPatches/RH2 Rimmu-Nation² - Security</li>
 		<li IfModActive="CP.RimmuNation.2.Weapons">ModPatches/RH2 Rimmu-Nation² - Weapons</li>
+		<li IfModActive="MrSamuelStreamer.RPGAdventureFlavour">ModPatches/RPG Adventure Flavour Pack</li>
 		<li IfModActive="DanDMan.RSPABSWGASE">ModPatches/RW Pilas and Bows</li>
 		<li IfModActive="ravvy.DD.Void.Addon">ModPatches/RWY Dragon's Descent Void Dwellers</li>
 		<li IfModActive="RunneLatki.RabbieRaceMod">ModPatches/Rabbie The Moonrabbit</li>
@@ -427,6 +434,7 @@
 		<li IfModActive="ReGrowth.BOTR.Core">ModPatches/ReGrowth - Core</li>
 		<li IfModActive="ReGrowth.BOTR.ExtinctAnimalsPack">ModPatches/ReGrowth - Extinct Animals</li>
 		<li IfModActive="ReGrowth.BOTR.Wastelands">ModPatches/ReGrowth - Wastelands</li>
+    <li IfModActive="mlie.reinforcedmechanoid2">ModPatches/Reinforced Mechanoid 2</li>
 		<li IfModActive="Bonible.ReconMech">ModPatches/Recon Mechanoid</li>
 		<li IfModActive="Mlie.RedArmy">ModPatches/Red Army</li>
 		<li IfModActive="vonschtirlitz.RCA">ModPatches/Redcoat Apparel</li>
@@ -480,6 +488,7 @@
 		<li IfModActive="rimsenal.feral">ModPatches/Rimsenal Feral</li>
 		<li IfModActive="rimsenal.security">ModPatches/Rimsenal Security</li>
 		<li IfModActive="Rimsenal.Askbarn">ModPatches/Rimsenal Xenotype Pack - Askbarn</li>
+		<li IfModActive="Rimsenal.Harana">ModPatches/Rimsenal Xenotype Pack - Harana</li>
 		<li IfModActive="SirMashedPotato.DarkDescent">ModPatches/Rimworld - The Dark Descent</li>
 		<li IfModActive="Mlie.RRUESContactLightArmory">ModPatches/Risk of Rain UES Contact Light Armory</li>
 		<li IfModActive="Ghastly.RoboticServitude">ModPatches/Robotic Servitude</li>
@@ -614,6 +623,7 @@
 		<li IfModActive="flangopink.VanillaXCOMPlasmaWeapons">ModPatches/Vanilla XCOM Plasma Weapons</li>
 		<li IfModActive="flangopink.VanillaXCOMWeapons">ModPatches/Vanilla XCOM Weapons</li>
 		<li IfModActive="KavaCaligula.VFClassicMechs">ModPatches/Vehicle Framework Expanded - Classic Mechs</li>
+		<li IfModActive="Gunmar.VictorianEraApparels">ModPatches/Victorian Era Apparels</li>
 		<li IfModActive="Mlie.VulpineRacePack">ModPatches/Vulpine Pack</li>
 		<li IfModActive="VsEdit.ods.wwiigerman.uniforms">ModPatches/WWII German Uniforms</li>
 		<li IfModActive="TheWingedGuy.WWII.Soviet.Faction">ModPatches/WWII Soviet Faction</li>
@@ -629,6 +639,7 @@
 		<li IfModActive="Thek.WTB">ModPatches/Waster Toxic Breather</li>
 		<li IfModActive="Kyrrisayo.WeaponsPlus">ModPatches/Weapons+</li>
 		<li IfModActive="Owlchemist.Windows">ModPatches/Windows</li>
+		<li IfModActive="forestfey.SpiritWolf">ModPatches/Xen's Spirit Wolf</li>
 		<li IfModActive="Mlie.XennRace">ModPatches/Xenn</li>
 		<li IfModActive="Albion.Xenohumans">ModPatches/Xenohumans</li>
 		<li IfModActive="AveryTheKitty.XenohumansAnthromorphs">ModPatches/Xenohumans - Anthromorphs</li>
