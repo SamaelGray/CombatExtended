@@ -174,7 +174,7 @@
 			<Bulk>13.00</Bulk>
 		</statBases>
 		<Properties>
-			<recoilAmount>0.92</recoilAmount>
+			<recoilAmount>1.01</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_5x35mmCharged</defaultProjectile>
