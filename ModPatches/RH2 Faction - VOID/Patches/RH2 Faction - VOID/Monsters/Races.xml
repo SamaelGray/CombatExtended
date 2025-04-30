@@ -103,13 +103,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF_Mother"]/combatPower</xpath>
-		<value>
-			<combatPower>600</combatPower>
-		</value>
-	</Operation>
-
 	<!-- ========== Titan ========== -->
 
 	<Operation Class="PatchOperationAddModExtension">
@@ -197,13 +190,6 @@
 		<xpath>Defs/ThingDef[defName="RH_DF_Titan"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>15</ArmorRating_Blunt>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_Titan"]/combatPower</xpath>
-		<value>
-			<combatPower>600</combatPower>
 		</value>
 	</Operation>
 
@@ -297,13 +283,6 @@
 		<xpath>Defs/ThingDef[defName="RH_DF_Wraith"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>13</ArmorRating_Blunt>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_Wraith"]/combatPower</xpath>
-		<value>
-			<combatPower>540</combatPower>
 		</value>
 	</Operation>
 
@@ -408,13 +387,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DFGiantSpider"]/combatPower</xpath>
-		<value>
-			<combatPower>600</combatPower>
-		</value>
-	</Operation>
-
 	<!-- ========== Stalker ========== -->
 
 	<Operation Class="PatchOperationAddModExtension">
@@ -508,10 +480,4 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="RH_DF2_Stalker"]/combatPower</xpath>
-		<value>
-			<combatPower>600</combatPower>
-		</value>
-	</Operation>
 </Patch>

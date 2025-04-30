@@ -98,13 +98,6 @@
 					</value>
 				</li>
 
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName="AM_Mech_Sagittarius"]/combatPower</xpath>
-					<value>
-						<combatPower>300</combatPower>
-					</value>
-				</li>
-
 			</operations>
 		</match>
 	</Operation>

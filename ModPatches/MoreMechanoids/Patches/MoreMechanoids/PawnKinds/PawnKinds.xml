@@ -13,10 +13,4 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="Mech_Assaulter"]/combatPower</xpath>
-		<value>
-			<combatPower>400</combatPower>
-		</value>
-	</Operation>
 </Patch>

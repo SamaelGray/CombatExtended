@@ -85,13 +85,6 @@
 					</value>
 				</li>
 
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName="AM_Mech_Optio"]/combatPower</xpath>
-					<value>
-						<combatPower>220</combatPower>
-					</value>
-				</li>
-
 				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/PawnKindDef[defName="AM_Mech_Optio"]</xpath>
 					<value>

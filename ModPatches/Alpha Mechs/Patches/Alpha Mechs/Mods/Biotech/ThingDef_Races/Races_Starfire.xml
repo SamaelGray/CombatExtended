@@ -97,13 +97,6 @@
 					</value>
 				</li>
 
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/PawnKindDef[defName="AM_Starfire"]/combatPower</xpath>
-					<value>
-						<combatPower>750</combatPower>
-					</value>
-				</li>
-
 			</operations>
 		</match>
 	</Operation>

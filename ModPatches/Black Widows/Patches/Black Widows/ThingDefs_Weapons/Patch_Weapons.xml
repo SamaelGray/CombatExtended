@@ -179,7 +179,7 @@
 			<Bulk>10</Bulk>
 		</statBases>
 		<Properties>
-			<recoilAmount>0.73</recoilAmount>
+			<recoilAmount>0.9</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_5x35mmCharged</defaultProjectile>
@@ -194,7 +194,7 @@
 		<AmmoUser>
 			<reloadTime>4</reloadTime><!-- ep... -->
 			<magazineSize>20</magazineSize><!-- ...ic -->
-			<ammoSet>AmmoSet_6x24mmCharged</ammoSet>
+			<ammoSet>AmmoSet_5x35mmCharged</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aimedBurstShotCount>3</aimedBurstShotCount>

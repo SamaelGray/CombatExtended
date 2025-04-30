@@ -11,13 +11,6 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="AA_BlackScarab"]/combatPower</xpath>
-		<value>
-			<combatPower>60</combatPower>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AA_BlackScarab"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>2.55</ArmorRating_Blunt>
@@ -144,13 +137,6 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="AA_BlackSpelopede"]/combatPower</xpath>
-		<value>
-			<combatPower>100</combatPower>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AA_BlackSpelopede"]/tools</xpath>
 		<value>
 			<tools>
@@ -254,13 +240,6 @@
 			<MeleeCritChance>0.45</MeleeCritChance>
 			<MeleeParryChance>0.25</MeleeParryChance>
 			<Suppressability>0.2</Suppressability>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="AA_BlackSpider"]/combatPower</xpath>
-		<value>
-			<combatPower>200</combatPower>
 		</value>
 	</Operation>
 

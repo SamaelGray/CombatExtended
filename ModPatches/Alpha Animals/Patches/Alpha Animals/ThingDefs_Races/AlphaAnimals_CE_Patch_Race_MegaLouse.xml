@@ -25,13 +25,6 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="AA_MegaLouse"]/combatPower</xpath>
-		<value>
-			<combatPower>50</combatPower>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AA_MegaLouse"]/statBases/MoveSpeed</xpath>
 		<value>
 			<MoveSpeed>3.8</MoveSpeed>

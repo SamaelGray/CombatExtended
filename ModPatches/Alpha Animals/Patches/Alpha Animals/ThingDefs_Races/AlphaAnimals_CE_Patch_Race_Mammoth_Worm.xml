@@ -11,13 +11,6 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/PawnKindDef[defName="AA_MammothWorm"]/combatPower</xpath>
-		<value>
-			<combatPower>250</combatPower>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AA_MammothWorm"]/statBases/ArmorRating_Blunt</xpath>
 		<value>
 			<ArmorRating_Blunt>24</ArmorRating_Blunt>
