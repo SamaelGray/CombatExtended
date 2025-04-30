@@ -18,6 +18,7 @@
 			<MeleeDodgeChance>0.2</MeleeDodgeChance>
 			<MeleeCritChance>1.82</MeleeCritChance>
 			<MeleeParryChance>0.37</MeleeParryChance>
+			<MeleeHitChance>6</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -111,6 +112,7 @@
 			<MeleeDodgeChance>0.25</MeleeDodgeChance>
 			<MeleeCritChance>2.0</MeleeCritChance>
 			<MeleeParryChance>0.37</MeleeParryChance>
+			<MeleeHitChance>6</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -204,6 +206,7 @@
 			<MeleeDodgeChance>0.5</MeleeDodgeChance>
 			<MeleeCritChance>2.0</MeleeCritChance>
 			<MeleeParryChance>0.37</MeleeParryChance>
+			<MeleeHitChance>6</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -297,6 +300,7 @@
 			<MeleeDodgeChance>0.59</MeleeDodgeChance>
 			<MeleeCritChance>2.0</MeleeCritChance>
 			<MeleeParryChance>2.0</MeleeParryChance>
+			<MeleeHitChance>3</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -389,6 +393,7 @@
 			<MeleeDodgeChance>0.56</MeleeDodgeChance>
 			<MeleeCritChance>2.0</MeleeCritChance>
 			<MeleeParryChance>1.87</MeleeParryChance>
+			<MeleeHitChance>3</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -479,6 +484,7 @@
 			<MeleeDodgeChance>0.66</MeleeDodgeChance>
 			<MeleeCritChance>2.0</MeleeCritChance>
 			<MeleeParryChance>1.11</MeleeParryChance>
+			<MeleeHitChance>3</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -572,6 +578,7 @@
 			<MeleeDodgeChance>0.05</MeleeDodgeChance>
 			<MeleeCritChance>0.56</MeleeCritChance>
 			<MeleeParryChance>1.87</MeleeParryChance>
+			<MeleeHitChance>3</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -665,6 +672,7 @@
 			<MeleeDodgeChance>0.67</MeleeDodgeChance>
 			<MeleeCritChance>2.0</MeleeCritChance>
 			<MeleeParryChance>2.0</MeleeParryChance>
+			<MeleeHitChance>3</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -758,6 +766,7 @@
 			<MeleeDodgeChance>0.18</MeleeDodgeChance>
 			<MeleeCritChance>0.21</MeleeCritChance>
 			<MeleeParryChance>1.16</MeleeParryChance>
+			<MeleeHitChance>6</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -851,6 +860,7 @@
 			<MeleeDodgeChance>0.09</MeleeDodgeChance>
 			<MeleeCritChance>0.07</MeleeCritChance>
 			<MeleeParryChance>0.16</MeleeParryChance>
+			<MeleeHitChance>6</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -943,6 +953,7 @@
 			<MeleeDodgeChance>0.15</MeleeDodgeChance>
 			<MeleeCritChance>0.25</MeleeCritChance>
 			<MeleeParryChance>0.29</MeleeParryChance>
+			<MeleeHitChance>6</MeleeHitChance>
 		</value>
 	</Operation>
 
@@ -1036,6 +1047,7 @@
 			<MeleeDodgeChance>0.08</MeleeDodgeChance>
 			<MeleeCritChance>0.09</MeleeCritChance>
 			<MeleeParryChance>0.32</MeleeParryChance>
+			<MeleeHitChance>6</MeleeHitChance>
 		</value>
 	</Operation>
 
