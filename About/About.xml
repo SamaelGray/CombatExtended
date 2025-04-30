@@ -2,13 +2,13 @@
 <ModMetaData>
 
 	<name>Combat Extended</name>
-	<author>CE Team</author>
-	<url>https://github.com/CombatExtended-Continued/CombatExtended</url>
+	<author>Samael Gray</author>
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
 	<packageId>CETeam.CombatExtended</packageId>
-	<description>Version: 15.6.2.0\n\nExtends combat mechanics to make them deeper and more tactical.</description>
+	<modVersion>1.5.6.2.0</modVersion>
+	<description>CEGE, extends combat mechanics to make them deeper and more tactical, with extra flaver added on top.</description>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/CE_ModIcon_JustHat</modIconPath>
 	<modDependencies>
 		<li>
