@@ -132,6 +132,8 @@
 		<li IfModActive="Pal5k.DeployableTurret">ModPatches/Deployable Turret</li>
 		<li IfModActive="DetVisor.EnergyWeapons">ModPatches/Det's Energy Weapons</li>
 		<li IfModActive="det.boglegs">ModPatches/Det's Xenotypes - Boglegs</li>
+		<li IfModActive="det.keshig">ModPatches/Det's Xenotypes - Keshig</li>
+		<li IfModActive="det.venators">ModPatches/Det's Xenotypes - Venators</li>
 		<li IfModActive="ATK.DevilstrandAnimals">ModPatches/Devilstrand Animals</li>
 		<li IfModActive="GarbageDayIsHereToStay.DevilstrandColourBundle.GDIHTSDSCB">ModPatches/Devilstrand Colour Bundle</li>
 		<li IfModActive="spincrus.dinosauria">ModPatches/Dinosauria</li>
@@ -502,6 +504,9 @@
 		<li IfModActive="Mlie.RRUESContactLightArmory">ModPatches/Risk of Rain UES Contact Light Armory</li>
 		<li IfModActive="Ghastly.RoboticServitude">ModPatches/Robotic Servitude</li>
 		<li IfModActive="goudaquiche.LtfRockmenRace">ModPatches/Rockmen Race</li>
+		<li IfModActive="rooboid.faun">ModPatches/Roo Faun</li>
+		<li IfModActive="rooboid.satyr">ModPatches/Roo Satyr</li>
+		<li IfModActive="rooboid.satyrfaun.expanded">ModPatches/Roo Satyr and Fauna Xenotype Expanded</li>
 		<li IfModActive="polonium.RorenRaceMod">ModPatches/Roren Race</li>
 		<li IfModActive="Bucko.RoyalArsenal">ModPatches/Royal Arsenal</li>
 		<li IfModActive="Bucko.RoyalArsenal.SpecialtyWeapons">ModPatches/Royal Arsenal - Speciality Weapons</li>

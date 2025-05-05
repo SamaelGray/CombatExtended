@@ -105,8 +105,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>80</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -194,8 +192,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>500</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -305,8 +301,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>80</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -413,8 +407,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>80</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -524,8 +516,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>80</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -635,8 +625,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>100</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -746,8 +734,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>100</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -897,8 +883,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>100</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -1021,8 +1005,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>200</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -1134,8 +1116,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>300</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -1223,8 +1203,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>420</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -1312,8 +1290,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>400</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>
@@ -1423,8 +1399,6 @@
 				</RepairIngredients>
 				<RepairTime>300</RepairTime>
 				<RepairValue>200</RepairValue>
-				<CanOverHeal>true</CanOverHeal>
-				<MaxOverHeal>100</MaxOverHeal>
 				<MinArmorPct>0.5</MinArmorPct>
 			</li>
 		</value>

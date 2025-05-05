@@ -178,6 +178,8 @@ Darkest Rim: Apparel	|
 Deployable Turret   |
 Det's Energy Weapons    |
 Det's Xenotypes - Boglegs   |
+Det's Xenotypes - Keshig   |
+Det's Xenotypes - Venators   |
 Devilstrand Animals |
 Devilstrand Colour Bundle   |
 Dinosauria |
@@ -487,6 +489,9 @@ Rimworld of Magic |
 Risk of Rain: UES Contact Light Armory (Continued) |
 Robotic Servitude   |
 Rockmen race    |
+Roo Fauna    |
+Roo Satyr    |
+Roo Satyr and Faun Xenotype Expanded    |
 Roren, People of Rorensia   |
 Royal Arsenal |
 Royal Arsenal - Speciality Weapons  |
