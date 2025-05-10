@@ -7,7 +7,7 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<packageId>CETeam.CombatExtended</packageId>
-	<modVersion>1.5.6.2.0</modVersion>
+	<modVersion>15.6.3.0</modVersion>
 	<description>CEGE, extends combat mechanics to make them deeper and more tactical, with extra flaver added on top.</description>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/CE_ModIcon_JustHat</modIconPath>
 	<modDependencies>
@@ -49,6 +49,7 @@
 		<li>miho.fortifiedoutremer</li>
 		<li>co.uk.epicguru.whatsthatmod</li>
 		<li>sarg.alphagenes</li>
+		<li>accurex.medievalempireoverhaul</li>
 	</loadBefore>
 	<loadAfter>
 		<li>brrainz.harmony</li>
