@@ -16,6 +16,7 @@
 		<ammoTypes>
 			<Ammo_338Norma_FMJ>Bullet_338Norma_FMJ</Ammo_338Norma_FMJ>
 			<Ammo_338Norma_AP>Bullet_338Norma_AP</Ammo_338Norma_AP>
+			<Ammo_338Norma_HP>Bullet_338Norma_HP</Ammo_338Norma_HP>
 			<Ammo_338Norma_Incendiary>Bullet_338Norma_Incendiary</Ammo_338Norma_Incendiary>
 			<Ammo_338Norma_HE>Bullet_338Norma_HE</Ammo_338Norma_HE>
 			<Ammo_338Norma_Sabot>Bullet_338Norma_Sabot</Ammo_338Norma_Sabot>
@@ -66,6 +67,17 @@
 		</statBases>
 		<ammoClass>ArmorPiercing</ammoClass>
 		<cookOffProjectile>Bullet_338Norma_AP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo338NormaBase">
+		<defName>Ammo_338Norma_HP</defName>
+		<label>.338 Norma Magnum (HP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HighCaliber/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_338Norma_HP</cookOffProjectile>
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo338NormaBase">
@@ -143,6 +155,16 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>16</damageAmountBase>
 			<armorPenetrationSharp>22</armorPenetrationSharp>
+			<armorPenetrationBlunt>126.66</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base338NormaBullet">
+		<defName>Bullet_338Norma_HP</defName>
+		<label>.338 Norma Magnum bullet (HP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>32</damageAmountBase>
+			<armorPenetrationSharp>5.5</armorPenetrationSharp>
 			<armorPenetrationBlunt>126.66</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
@@ -242,6 +264,32 @@
 			<Ammo_338Norma_AP>200</Ammo_338Norma_AP>
 		</products>
 		<workAmount>2400</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_338Norma_HP</defName>
+		<label>make .338 Norma Magnum (HP) cartridge x200</label>
+		<description>Craft 200 .338 Norma Magnum (HP) cartridges.</description>
+		<jobString>Making .338 Norma Magnum (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_338Norma_HP>200</Ammo_338Norma_HP>
+		</products>
+		<workAmount>2000</workAmount>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">

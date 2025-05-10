@@ -118,7 +118,7 @@
 		<label>20mm Mauser bullet (AP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>36</damageAmountBase>
-			<armorPenetrationSharp>26</armorPenetrationSharp>
+			<armorPenetrationSharp>26.5</armorPenetrationSharp>
 			<armorPenetrationBlunt>570.24</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
@@ -128,7 +128,7 @@
 		<label>20mm Mauser bullet (AP-I)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>36</damageAmountBase>
-			<armorPenetrationSharp>26</armorPenetrationSharp>
+			<armorPenetrationSharp>26.5</armorPenetrationSharp>
 			<armorPenetrationBlunt>570.24</armorPenetrationBlunt>
 			<secondaryDamage>
 				<li>
@@ -144,7 +144,7 @@
 		<label>20mm Mauser bullet (AP-HE)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>57</damageAmountBase>
-			<armorPenetrationSharp>13</armorPenetrationSharp>
+			<armorPenetrationSharp>13.5</armorPenetrationSharp>
 			<armorPenetrationBlunt>570.24</armorPenetrationBlunt>
 			<secondaryDamage>
 				<li>
@@ -161,7 +161,7 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<speed>189</speed>
 			<damageAmountBase>30</damageAmountBase>
-			<armorPenetrationSharp>45.5</armorPenetrationSharp>
+			<armorPenetrationSharp>46.5</armorPenetrationSharp>
 			<armorPenetrationBlunt>734.84</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>

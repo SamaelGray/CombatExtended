@@ -16,6 +16,7 @@
 		<ammoTypes>
 			<Ammo_127x108mm_FMJ>Bullet_127x108mm_FMJ</Ammo_127x108mm_FMJ>
 			<Ammo_127x108mm_AP>Bullet_127x108mm_AP</Ammo_127x108mm_AP>
+			<Ammo_127x108mm_HP>Bullet_127x108mm_HP</Ammo_127x108mm_HP>
 			<Ammo_127x108mm_Incendiary>Bullet_127x108mm_Incendiary</Ammo_127x108mm_Incendiary>
 			<Ammo_127x108mm_HE>Bullet_127x108mm_HE</Ammo_127x108mm_HE>
 			<Ammo_127x108mm_Sabot>Bullet_127x108mm_Sabot</Ammo_127x108mm_Sabot>
@@ -67,6 +68,17 @@
 		</statBases>
 		<ammoClass>ArmorPiercing</ammoClass>
 		<cookOffProjectile>Bullet_127x108mm_AP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x108mmBase">
+		<defName>Ammo_127x108mm_HP</defName>
+		<label>12.7x108mm (HP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HighCaliber/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_127x108mm_HP</cookOffProjectile>
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo127x108mmBase">
@@ -144,6 +156,16 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>26</damageAmountBase>
 			<armorPenetrationSharp>28</armorPenetrationSharp>
+			<armorPenetrationBlunt>357.22</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base127x108mmBullet">
+		<defName>Bullet_127x108mm_HP</defName>
+		<label>12.7x108mm bullet (HP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>53</damageAmountBase>
+			<armorPenetrationSharp>7</armorPenetrationSharp>
 			<armorPenetrationBlunt>357.22</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
@@ -243,6 +265,32 @@
 			<Ammo_127x108mm_AP>200</Ammo_127x108mm_AP>
 		</products>
 		<workAmount>6480</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_127x108mm_HP</defName>
+		<label>make 12.7x108mm (HP) cartridge x200</label>
+		<description>Craft 200 12.7x108mm (HP) cartridges.</description>
+		<jobString>Making 12.7x108mm (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>54</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_127x108mm_HP>200</Ammo_127x108mm_HP>
+		</products>
+		<workAmount>5400</workAmount>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">

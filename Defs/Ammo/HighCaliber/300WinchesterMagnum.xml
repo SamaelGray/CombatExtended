@@ -16,6 +16,7 @@
 		<ammoTypes>
 			<Ammo_300WinchesterMagnum_FMJ>Bullet_300WinchesterMagnum_FMJ</Ammo_300WinchesterMagnum_FMJ>
 			<Ammo_300WinchesterMagnum_AP>Bullet_300WinchesterMagnum_AP</Ammo_300WinchesterMagnum_AP>
+			<Ammo_300WinchesterMagnum_HP>Bullet_300WinchesterMagnum_HP</Ammo_300WinchesterMagnum_HP>
 			<Ammo_300WinchesterMagnum_Incendiary>Bullet_300WinchesterMagnum_Incendiary</Ammo_300WinchesterMagnum_Incendiary>
 			<Ammo_300WinchesterMagnum_HE>Bullet_300WinchesterMagnum_HE</Ammo_300WinchesterMagnum_HE>
 			<Ammo_300WinchesterMagnum_Sabot>Bullet_300WinchesterMagnum_Sabot</Ammo_300WinchesterMagnum_Sabot>
@@ -66,6 +67,17 @@
 		</statBases>
 		<ammoClass>ArmorPiercing</ammoClass>
 		<cookOffProjectile>Bullet_300WinchesterMagnum_AP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo300WinchesterMagnumBase">
+		<defName>Ammo_300WinchesterMagnum_HP</defName>
+		<label>.300 Winchester Magnum (HP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HighCaliber/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_300WinchesterMagnum_HP</cookOffProjectile>
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo300WinchesterMagnumBase">
@@ -143,6 +155,16 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>14</damageAmountBase>
 			<armorPenetrationSharp>20</armorPenetrationSharp>
+			<armorPenetrationBlunt>107</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base300WinchesterMagnumBullet">
+		<defName>Bullet_300WinchesterMagnum_HP</defName>
+		<label>.300 Winchester Magnum bullet (HP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>29</damageAmountBase>
+			<armorPenetrationSharp>5</armorPenetrationSharp>
 			<armorPenetrationBlunt>107</armorPenetrationBlunt>
 		</projectile>
 	</ThingDef>
@@ -242,6 +264,32 @@
 			<Ammo_300WinchesterMagnum_AP>200</Ammo_300WinchesterMagnum_AP>
 		</products>
 		<workAmount>1920</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_300WinchesterMagnum_HP</defName>
+		<label>make .300 Winchester Magnum (HP) cartridge x200</label>
+		<description>Craft 200 .300 Winchester Magnum (HP) cartridges.</description>
+		<jobString>Making .300 Winchester Magnum (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_300WinchesterMagnum_HP>200</Ammo_300WinchesterMagnum_HP>
+		</products>
+		<workAmount>1600</workAmount>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
