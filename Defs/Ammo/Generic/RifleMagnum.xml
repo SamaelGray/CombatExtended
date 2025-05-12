@@ -18,6 +18,7 @@
 		<ammoTypes>
 			<Ammo_RifleMagnum_FMJ>Bullet_338Lapua_FMJ</Ammo_RifleMagnum_FMJ>
 			<Ammo_RifleMagnum_AP>Bullet_338Lapua_AP</Ammo_RifleMagnum_AP>
+			<Ammo_RifleMagnum_HP>Bullet_338Lapua_AP</Ammo_RifleMagnum_HP>
 			<Ammo_RifleMagnum_Incendiary>Bullet_338Lapua_Incendiary</Ammo_RifleMagnum_Incendiary>
 			<Ammo_RifleMagnum_HE>Bullet_338Lapua_HE</Ammo_RifleMagnum_HE>
 			<Ammo_RifleMagnum_Sabot>Bullet_338Lapua_Sabot</Ammo_RifleMagnum_Sabot>
@@ -68,6 +69,17 @@
 		</statBases>
 		<ammoClass>ArmorPiercing</ammoClass>
 		<cookOffProjectile>Bullet_338Lapua_AP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoRifleMagnumBase">
+		<defName>Ammo_RifleMagnum_HP</defName>
+		<label>magnum rifle cartridge (HP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HighCaliber/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_338Lapua_HP</cookOffProjectile>
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoRifleMagnumBase">
@@ -165,6 +177,32 @@
 			<Ammo_RifleMagnum_AP>200</Ammo_RifleMagnum_AP>
 		</products>
 		<workAmount>2400</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_RifleMagnum_HP</defName>
+		<label>make magnum rifle (HP) cartridge x200</label>
+		<description>Craft 200 magnum rifle (HP) cartridges.</description>
+		<jobString>Making magnum rifle (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_RifleMagnum_HP>200</Ammo_RifleMagnum_HP>
+		</products>
+		<workAmount>2000</workAmount>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">

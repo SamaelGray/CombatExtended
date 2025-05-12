@@ -18,6 +18,7 @@
 		<ammoTypes>
 			<Ammo_AntiMateriel_FMJ>Bullet_50BMG_FMJ</Ammo_AntiMateriel_FMJ>
 			<Ammo_AntiMateriel_AP>Bullet_50BMG_AP</Ammo_AntiMateriel_AP>
+			<Ammo_AntiMateriel_HP>Bullet_50BMG_HP</Ammo_AntiMateriel_HP>
 			<Ammo_AntiMateriel_Incendiary>Bullet_50BMG_Incendiary</Ammo_AntiMateriel_Incendiary>
 			<Ammo_AntiMateriel_HE>Bullet_50BMG_HE</Ammo_AntiMateriel_HE>
 			<Ammo_AntiMateriel_Sabot>Bullet_50BMG_Sabot</Ammo_AntiMateriel_Sabot>
@@ -68,6 +69,17 @@
 		</statBases>
 		<ammoClass>ArmorPiercing</ammoClass>
 		<cookOffProjectile>Bullet_50BMG_AP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoAntiMaterielBase">
+		<defName>Ammo_AntiMateriel_HP</defName>
+		<label>anti-materiel cartridge (HP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/HighCaliber/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_50BMG_HP</cookOffProjectile>
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoAntiMaterielBase">
@@ -165,6 +177,32 @@
 			<Ammo_AntiMateriel_AP>200</Ammo_AntiMateriel_AP>
 		</products>
 		<workAmount>6000</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_AntiMateriel_HP</defName>
+		<label>make anti-materiel (HP) cartridge x200</label>
+		<description>Craft 200 anti-materiel (HP) cartridges.</description>
+		<jobString>Making anti-materiel (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_AntiMateriel_HP>200</Ammo_AntiMateriel_HP>
+		</products>
+		<workAmount>5000</workAmount>
 	</RecipeDef>
 
 	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
