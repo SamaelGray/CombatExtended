@@ -163,7 +163,7 @@
 		<value>
 			<thingClass>CombatExtended.AmmoThing</thingClass>
 			<stackLimit>75</stackLimit>
-			<resourceReadoutPriority>First</resourceReadoutPriority>
+			<resourceReadoutPriority>First</resourceReadoutPriority>		
 		</value>
 	</Operation>
 
@@ -262,25 +262,11 @@
 		</value>
 	</Operation>
 
-	<!-- A compromise to fix duplicate nodes -->
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Vanilla Weapons Expanded</li>
-		</mods>
-
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ThingDef[defName="Proj_GrenadeMolotov"]/thingClass</xpath>
-			<value>
-				<thingClass>CombatExtended.Projectile_FireTrail</thingClass>
-			</value>
-		</match>
-
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="Proj_GrenadeMolotov"]</xpath>
-			<value>
-				<thingClass>CombatExtended.Projectile_FireTrail</thingClass>
-			</value>
-		</nomatch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Proj_GrenadeMolotov"]</xpath>
+		<value>
+			<thingClass>CombatExtended.Projectile_FireTrail</thingClass>
+		</value>
 	</Operation>
 
 	<!-- Grenade -->
@@ -430,7 +416,7 @@
 		<value>
 			<thingClass>CombatExtended.AmmoThing</thingClass>
 			<stackLimit>75</stackLimit>
-			<resourceReadoutPriority>First</resourceReadoutPriority>
+			<resourceReadoutPriority>First</resourceReadoutPriority>	
 		</value>
 	</Operation>
 
