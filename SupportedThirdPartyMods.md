@@ -193,6 +193,7 @@ Dragons!	|
 Dubs Rimatomics |
 Dumbs' Dachshunds   |
 Dusk Armory   |
+Dust Bunnies    |
 Eccentric Militors	|
 ED-Shields	|
 Edge of Descension - Hovercraft  |
@@ -272,6 +273,7 @@ GrimWorld 40,000 - Angels of Death |
 GrimWorld 40,000 - Core Imperialis |
 GrimWorld 40,000 - Hammer of the Imperium |
 Grimworld 40,000 - Heresy Armor Addon   |
+GrimWorld 40,000 - Sabbat's Blight |
 GrimWorld 40,000 - Scattered Sons |
 GrimWorld 40,000 - Talons of the Emperor |
 Gulden Mod  |
