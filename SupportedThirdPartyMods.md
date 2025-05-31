@@ -43,6 +43,8 @@ Mod |
 [RH2] Faction: The Rangers  |
 [RH2] Faction: Utilitarian  |
 [RH2] Faction: V.O.I.D.	|
+[RH2] Helldivers: Super Apparel |
+[RH2] Helldivers: Super Firearms |
 [RH2] Metal Gear Solid  |
 [RH2] Rimmu-Nation² - Clothing	|
 [RH2] Rimmu-Nation² - Security  |
@@ -117,6 +119,7 @@ Archotech+ (Continued)  |
 Arasaka Corporation	|
 Argonians of Blackmarsh (Continued) |
 Arrow Please (Continued)    |
+Asimov  |
 Aspero Race |
 Astoriel Legacy |
 Astra Militarum Regimentum - Cadia  |
@@ -166,6 +169,7 @@ Communicable Diseases   |
 Cossacks of the Rim |
 Crossbows   |
 Crowns and Regalia  |
+Crypto Weapon Restored  |
 Cupro's Alloys	|
 Cursed Guns |
 CutePenguin	|
@@ -422,6 +426,8 @@ phynilla Expanded Mechs Scyther |
 pphhyy's Lightless Empyrean |
 pphhyy Sanguinary Animals   |
 Prestige Specialist Armours	|
+Primitive Core |
+Primitive Workbenches |
 Project RimFactory - Materials |
 Prostheses+ |
 Protoswords |

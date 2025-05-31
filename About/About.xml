@@ -7,7 +7,7 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<packageId>CETeam.CombatExtended</packageId>
-	<modVersion>15.6.3.0</modVersion>
+	<modVersion>15.6.3.1</modVersion>
 	<description>CEGE, extends combat mechanics to make them deeper and more tactical, with extra flaver added on top.</description>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/CE_ModIcon_JustHat</modIconPath>
 	<modDependencies>
