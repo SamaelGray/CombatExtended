@@ -15,7 +15,7 @@ namespace CombatExtended
         public float height;
         public bool radiusChange = false;
         public bool toBeMerged = false;
-        private const float PressurePerDamage = 0.3f;
+        private const float PressurePerDamage = 1.0f;
         private const float MaxMergeTicks = 3f;
         public const float MaxMergeRange = 3f;           //merge within 3 tiles
         public const bool MergeExplosions = false;
@@ -23,8 +23,8 @@ namespace CombatExtended
         private readonly SimpleCurve defaultCurve = new SimpleCurve
         {
             {1.5f, 1f},
-            {2.5f, 0.5f},
-            {5f, 0.25f},
+            {2.5f, 0.6f},
+            {5f, 0.3f},
             {8f, 0.1f},
             {12f, 0.05f}
         };
