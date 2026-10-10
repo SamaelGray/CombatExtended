@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+	<!-- Apparel -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Apparel_FlakCollar"]/statBases/Mass</xpath>
 		<value>
@@ -226,12 +227,13 @@
 		<xpath>Defs/ThingDef[defName="Apparel_AmmoChute"]/equippedStatOffsets</xpath>
 		<value>
 			<equippedStatOffsets>
-				<CarryBulk>20</CarryBulk>
+				<CarryBulk>30</CarryBulk>
 				<ReloadSpeed>0.25</ReloadSpeed>
 			</equippedStatOffsets>
 		</value>
 	</Operation>
 
+	<!-- Weapons -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Gun_SingleLauncher"]/tools</xpath>
 		<value>
